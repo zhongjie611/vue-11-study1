@@ -12,3 +12,8 @@ $(function(){
       return '#' + 'D97634'
     })
 })
+
+class Persson {
+    static info = {name:'zl',age:18}
+}
+console.log(Persson.info)
